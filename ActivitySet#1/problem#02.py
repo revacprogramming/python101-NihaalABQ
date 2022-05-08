@@ -2,4 +2,5 @@
 
 print("hello world")
 
-print("sharalalala")
+name=input("Enter your name:")
+print("Given name is:",name)
