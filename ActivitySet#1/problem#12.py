@@ -1,6 +1,6 @@
 fname = "mbox-short.txt"
 hand = open(fname)
-
+#..
 lst = list()
 
 for line in hand:
