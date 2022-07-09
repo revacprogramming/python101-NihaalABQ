@@ -10,6 +10,7 @@ cur.execute('''
 CREATE TABLE Counts (org TEXT, count INTEGER)''')
 
 fname = input('Enter file name: ')
+#if (len(fname) < 1): fname = 'mbox.txt'
 if (len(fname) < 1): fname = 'mbox.txt'
 fh = open(fname)
 list_1 =[]
