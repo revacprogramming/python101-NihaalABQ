@@ -20,5 +20,6 @@ for item in lst:
     total = total + float (t)
     
 print ('Count:', count)
+#print ('Count:', count)
 print ('Sum:' , total)
 
