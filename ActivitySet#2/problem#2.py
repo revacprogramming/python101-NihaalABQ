@@ -13,5 +13,6 @@ def output(a, b, sum):
 def main():
     a, b = input_two_numbers()
     sum = add(a, b)
+    #sum = add(a, b)
     output(a, b, sum)
 main()
