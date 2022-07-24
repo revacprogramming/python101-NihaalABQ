@@ -1,3 +1,5 @@
+
+
 def get_cs():
     a=(input("enter a string"))
     return a
@@ -28,5 +30,5 @@ def main():
     print(cs)
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
