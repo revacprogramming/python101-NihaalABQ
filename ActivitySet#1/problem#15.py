@@ -8,7 +8,7 @@ url =' http://py4e-data.dr-chuck.net/comments_1547251.html'
 html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
 
-sum = 00
+sum = 0
 tags = soup('span')
 for tag in tags:
     sum = sum+int(tag.contents[0])
