@@ -1,9 +1,9 @@
 import re
-file = open("data.txt")
-regex = '\d+'
-sum = 0
-for l in file:
-    lst = re.findall(regex,l)
+fie=open("data.txt")
+regex="\d+"
+sum=0
+for l in fie:
+    lst=re.findall(regex,l)
     for i in lst:
-        sum += int(i)
+        sum+=int(i)
 print(sum)
